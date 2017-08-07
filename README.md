@@ -4,8 +4,8 @@
 This Project shows the list of residential society amenities which are stored in the MySql Database. Using the following endpoints, different operations can be achieved:
 - `/data/amenities/all` - This returns the list of amenities in the Amenities table which is created in MySql database (tbl_sms_amenities).
 - `/data/amenities/{name}` - This returns the details of the Amenity passed in URL
-- `/data/id/{id}` - This returns the details of the Amenity for the Amenity Id passed in URL
-- `/data/update/{id}/{name}` - This updates the name of the amenity for the amenityId passed in the URL
+- `/data/amenities/id/{id}` - This returns the details of the Amenity for the Amenity Id passed in URL
+- `/data/amenities/update/{id}/{name}` - This updates the name of the amenity for the amenityId passed in the URL
 
 ## Libraries used
 - Spring Boot
