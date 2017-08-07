@@ -12,5 +12,4 @@ public class ReebokApplicationTests {
 	@Test
 	public void contextLoads() {
 	}
-
 }

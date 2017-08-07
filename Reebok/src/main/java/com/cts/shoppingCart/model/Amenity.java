@@ -19,7 +19,7 @@ import javax.persistence.Version;
 @Entity
 @Table(name = "tbl_sms_amenities")
 public class Amenity {
-	
+	 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "amenity_id")
